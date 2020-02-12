@@ -1,6 +1,5 @@
 def square_array(array)
-  n_array = []
-  array.collect { |num| num * num }
-  n_array << num
-  return n_array
+  n_arr = []
+  array.each { |num| n_arr << num * num }
+  return n_arr
 end
